@@ -1,0 +1,32 @@
+
+
+version : '3.8'
+services:
+    postgres:
+        image : postgres:15.0-alpine
+        restart : always
+        container_name: postgres-database2
+
+        environment:
+             - POSTGRES_USER=postgres
+             - POSTGRES_PASSWORD=postgres
+           
+
+        ports:
+             - "8001:5432"
+    pg-admin:
+        image:  dpage/pgadmin4:6
+        restart : always
+        environment:
+              PGADMIN_DEFAULT_EMAIL : souhailrouai@gmail.com
+              PGADMIN_DEFAULT_PASSWORD : souhail
+        
+        ports:
+         - "5050:80"
+    
+
+
+
+
+
+
