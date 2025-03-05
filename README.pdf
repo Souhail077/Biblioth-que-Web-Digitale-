@@ -1,16 +1,20 @@
-Guide pour lancer le projet :
-exécution local classique :
+# Guide pour lancer le projet
 
-Pour lancer le back-end :
+## Exécution locale classique
 
+### Pour lancer le back-end :
 uvicorn app:app --reload
 
-Pour lancer front-end :
-
+### Pour lancer le front-end :
 npm start
 
-pour lancer le projet avec docker :
+## Pour lancer le projet avec Docker
 
-Sur le répertoire du back : docker run -p 3000:3000 react-image
-Sur le répertoire du front : docker run -p 8000:8000 python-fastapi
-Sur le fichier docker-compose.yaml : docker-compose up
+### Sur le répertoire du back :
+docker run -p 3000:3000 react-image
+
+### Sur le répertoire du front :
+docker run -p 8000:8000 python-fastapi
+
+### Avec le fichier `docker-compose.yaml` :
+docker-compose up
