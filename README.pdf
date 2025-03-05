@@ -1,8 +1,10 @@
-# Mon projet
+# Projet Bibliotheque Digitale 
 
-Voici une capture d'écran de mon projet :
+Ce projet est une Bibliotheque en ligne développée avec **FastAPI** pour le backend et **React.js** pour le frontend.
 
-![Capture d'écran de l'application](https://i.ibb.co/RG2bjgTW/Capture-d-e-cran-2025-03-05-a-11-11-53.png)
+<p align="center">
+  <img src="https://i.ibb.co/RG2bjgTW/Capture-d-e-cran-2025-03-05-a-11-11-53.png" width="500"/>
+</p>
 
 
 
