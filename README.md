@@ -3,7 +3,10 @@
 Ce projet est une calculatrice en ligne développée avec **FastAPI** pour le backend et **React.js** pour le frontend.
 
 <p align="center">
-  <img src="https://i.ibb.co/VvNzqrF/Capture-d-e-cran-2024-10-24-a-12-01-55.png" alt="Aperçu de l'application" width="500"/>
+  <img src="https://i.ibb.co/RG2bjgTW/Capture-d-e-cran-2025-03-05-a-11-11-53.png" alt="Aperçu de l'application" width="500"/>
+</p>
+<p align="center">
+  <img src="https://i.ibb.co/n8BsJbjh/Capture-d-e-cran-2025-03-05-a-11-20-58.png" alt="Aperçu de l'application" width="500"/>
 </p>
 
 **Lien vers l'application :** <a href="https://npi-frontend-998096155776.us-central1.run.app/" target="_blank">https://npi-frontend-998096155776.us-central1.run.app/</a>
