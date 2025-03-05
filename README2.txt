@@ -1,19 +1,30 @@
-Guide pour lancer le projet : 
+# Projet Bibliotheque Digitale 
 
- 	exécution local classique : 
-	
-Pour lancer le back-end :
- uvicorn app:app --reload
+Ce projet est une Bibliotheque en ligne développée avec **FastAPI** pour le backend et **React.js** pour le frontend.
 
-Pour lancer front-end : 	
-				npm start 
+<p align="center">
+  <img src="https://i.ibb.co/RG2bjgTW/Capture-d-e-cran-2025-03-05-a-11-11-53.png" width="500"/>
+</p>
 
 
-pour lancer le projet avec docker :  
 
-	Sur le répertoire du back : docker run -p 3000:3000 react-image
+# Guide pour lancer le projet
 
-	Sur le répertoire du front : docker run -p 8000:8000 python-fastapi
+## Exécution locale classique
 
-	Sur le fichier docker-compose.yaml : docker-compose up 
-			
+### Pour lancer le back-end :
+uvicorn app:app --reload
+
+### Pour lancer le front-end :
+npm start
+
+## Pour lancer le projet avec Docker
+
+### Sur le répertoire du back :
+docker run -p 3000:3000 react-image
+
+### Sur le répertoire du front :
+docker run -p 8000:8000 python-fastapi
+
+### Avec le fichier `docker-compose.yaml` :
+docker-compose up
